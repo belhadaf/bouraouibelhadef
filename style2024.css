@@ -1,0 +1,135 @@
+header {
+    background-image: url(155.jpg);
+  
+    background-size: cover; /* تغطية كاملة لحجم الهيدر */
+   background-position: center; /* وضع الصورة في المنتصف */
+    
+   color: #1e06a7;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* يوفر توزيع المحتوى في الهيدر */
+    align-items: center; /* يُضبط المحتوى عموديًا في المركز */
+    font-family:'Droid Arabic Naskh', serif;
+  }
+  .logo {
+    width: 100px; /* اختر العرض المناسب لشعارك */
+    height: 140px;;
+  }
+    /* تنسيق القائمة المنسدلة */
+    .dropdown {
+      font-family: "Lateef", serif;
+  font-weight: 800;
+  font-style: normal;
+        position: relative;
+        display: inline-block;
+        font-size: 25px;
+        text-decoration: none;
+        
+    }
+  
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+  
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+  
+    /* تنسيق الروابط داخل القائمة المنسدلة */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+  
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+  .container {
+    position: relative;
+  
+  }
+
+  .topright{
+    position: absolute;
+    top: 100px;
+   right: 200px;
+    font-size: 45px;
+   /* font-family:'Amiri', serif;"
+    font: weight 90px;*/
+   /* font-family: "Sofia", sans-serif;
+   font-weight:bolder;
+    text-shadow: 3px 3px 3px #c7260a;*/
+    font-family: "Reem Kufi", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+.log { 
+    width:100%;
+    height: 500px;;
+    opacity: 0.2;/*تضليل الصورة */
+  }
+ 
+  .photo { 
+    width:200px;
+    height: 200px;
+ float: left;
+  }
+.section1 {
+    float: right;
+    width:60%; /* تعديل العرض حسب الحاجة */
+    font-family: "Lateef", serif;
+  font-weight: 800;
+  font-style: normal;
+        position: relative;
+        display: inline-block;
+        font-size: 25px;
+
+  } 
+
+ h2{color: #1909f3;
+text-align: center;
+} 
+button{
+  width: 300px;
+  height:80px;
+  margin-right: 20px;
+  background-color: rgb(225, 250, 241);
+  color: #a51e1e;
+  text-align: center;
+  background-image: url(42.jpg);
+  background-position: center; /* وضع الصورة في المنتصف */
+  background-size: cover; /* تغطية كاملة لحجم الهيدر */
+  } 
+  
+ .footer {
+    background-image: url(7.jpg); 
+    background-size: cover; /* تغطية كاملة لحجم الهيدر */
+   background-position: center; /* وضع الصورة في المنتصف */   
+   color: #1e06a7;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* يوفر توزيع المحتوى في الهيدر */
+    align-items: center; /* يُضبط المحتوى عموديًا في المركز */
+    font-family:'Droid Arabic Naskh', serif;
+  }
+
+  .dropdown1 {
+    font-family: "Lateef", serif;
+font-weight: 800;
+font-style: normal;
+      position: relative;
+      display: inline-block;
+      font-size: 25px;
+      text-decoration: none;
+     margin-right: 80px; 
+  } 
